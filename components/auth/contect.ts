@@ -1,7 +1,7 @@
 // src/api/index.js
 import axios from 'axios'
 
-const BASE_URL = 'https://denchinfotech.in/admin/api'
+const BASE_URL = 'https://denchinfotech.in/api'
 
 export async function contectSubmit(formData) {
   try {

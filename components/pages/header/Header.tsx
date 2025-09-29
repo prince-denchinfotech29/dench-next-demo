@@ -81,8 +81,6 @@ export default function Navbar({ homeData, navData }: NavbarProps) {
                 <RadixDropdown key={title} title={title} slug={slug} items={items} />
               ))}
            
-
-            <Link href="/blog" className="text-[#0f3e49] hover:text-pink-600 font-medium">BLOGS</Link>
             <Link href="/contact" className="text-[#0f3e49] hover:text-pink-600 font-medium">CONTACT</Link>
             <Link href="/get-quote">
               <button className="bg-[#0d404e] text-white px-4 py-2 rounded-full hover:bg-pink-600 transition-all">
@@ -139,7 +137,7 @@ export default function Navbar({ homeData, navData }: NavbarProps) {
             </div>
           ))}
 
-          <Link href="/blog" onClick={() => setMobileOpen(false)} className="block font-medium text-[#0f3e49] hover:text-pink-600">BLOGS</Link>
+         
           <Link href="/contact" onClick={() => setMobileOpen(false)} className="block font-medium text-[#0f3e49] hover:text-pink-600">CONTACT</Link>
           <Link href="/get-quote">
             <button className="bg-[#0d404e] text-white px-4 py-2 rounded-full hover:bg-pink-600 transition-all">
